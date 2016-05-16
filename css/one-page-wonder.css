@@ -2,223 +2,222 @@
  * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
-//    background: url('https://s3-us-west-1.amazonaws.com/testing-frits.com/img/3girlspointing.jpg') no-repeat center center scroll;
  */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .navbar {
-   background-color: #0f8bc0;
-   border-bottom-color: #0f8bc0;
+  background-color: #0f8bc0;
+  border-bottom-color: #0f8bc0;
 }
 
 .navbar .nav > li > a {
-   color: white;
+  color: white;
 }
 
 .navbar-inverse .navbar-brand {
-   color: white;
+  color: white;
 }
 
 .navbar-inverse .navbar-brand:hover {
-   color: #9d9d9d;
+  color: #9d9d9d;
 }
 
 .navbar .nav > li > a:hover {
-   color: #9d9d9d;
+  color: #9d9d9d;
 }
 
 header {
-    height: 850px;
+  height: 850px;
 }
 
 .headline {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 
 .headline h1 {
-    font-size: 130px;
-    background: #fff;
-    background-color: rgba(255,182,193,0.8);
-    text-align: left;
+  font-size: 130px;
+  background: #fff;
+  background-color: rgba(255,182,193,0.8);
+  text-align: left;
 }
 
 .headline h2 {
-    font-size: 77px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+  font-size: 77px;
+  background: #fff;
+  background: rgba(255,255,255,0.9);
 }
 
 .featurette-divider {
-    margin: 80px 0;
+  margin: 80px 0;
 }
 
 .featurette {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .featurette-image.pull-left {
-    margin-right: 40px;
-    max-height: 500px;
+  margin-right: 40px;
+  max-height: 500px;
 }
 
 .featurette-image.pull-right {
-    margin-left: 40px;
-    max-height: 500px;
+  margin-left: 40px;
+  max-height: 500px;
 }
 
 .featurette-heading {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 footer {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 @media(min-width:992px) {
     .headline h1 {
-        font-size: 140px;
+      font-size: 140px;
     }
 
    .header-image {
-       display: block;
-       text-align: center;
-       background: url('../img/3_girls_pointing_LG.jpeg') no-repeat 10% center fixed; 
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       background-size: cover;
-       -o-background-size: cover;
+      display: block;
+      text-align: center;
+      background: url('../img/3_girls_pointing_LG.jpeg') no-repeat 10% center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
    }
 
     .headline h2 {
-        font-size: 63px;
+      font-size: 63px;
     }
 
     .featurette-divider {
-        margin: 50px 0;
+      margin: 50px 0;
     }
 
     .featurette-image.pull-left {
-        margin-right: 20px;
+      margin-right: 20px;
     }
 
     .featurette-image.pull-right {
-        margin-left: 20px;
+      margin-left: 20px;
     }
 
     .featurette-heading {
-        font-size: 35px;
+      font-size: 35px;
     }
 }
 
 @media(max-width:991px) {
     .header {
-        height: 400px;
+      height: 400px;
     }
 
    .header-image {
-       display: block;
-       text-align: center;
-       background: url('../img/3_girls_pointing_LG.jpeg') no-repeat 10% center; 
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       background-size: cover;
-       -o-background-size: cover;
+      display: block;
+      text-align: center;
+      background: url('../img/3_girls_pointing_LG.jpeg') no-repeat 10% center; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
    }
 
     .headline h1 {
-        font-size: 105px;
+      font-size: 105px;
     }
 
     .headline h2 {
-        font-size: 50px;
+      font-size: 50px;
     }
 
     .featurette-divider {
-        margin: 40px 0;
+      margin: 40px 0;
     }
 
     .featurette-image {
-        max-width: 50%;
+      max-width: 50%;
     }
 
     .featurette-image.pull-left {
-        margin-right: 10px;
+      margin-right: 10px;
     }
 
     .featurette-image.pull-right {
-        margin-left: 10px;
+      margin-left: 10px;
     }
 
     .featurette-heading {
-        font-size: 30px;
+      font-size: 30px;
     }
 }
 
 @media(max-width:768px) {
     header {
-        height: 400px;
+      height: 400px;
     }
 
     .container {
-        margin: 0 15px;
+      margin: 0 15px;
     }
 
     .featurette-divider {
-        margin: 40px 0;
+      margin: 40px 0;
     }
 
     .featurette-heading {
-        font-size: 25px;
+      font-size: 25px;
     }
 }
 
 @media(max-width:668px) {
     header {
-        height: 400px;
+      height: 400px;
     }
 
     .header-image {
-       display: block;
-       text-align: center;
-       background: url('../img/3_girls_pointing_SM.jpeg') no-repeat 10% center; 
-       background-color: #9d9d9d;
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       background-size: cover;
-       -o-background-size: cover;
+      display: block;
+      text-align: center;
+      background: url('../img/3_girls_pointing_SM.jpeg') no-repeat 10% center; 
+      background-color: #9d9d9d;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
     }
 
     .headline h1 {
-        font-size: 70px;
+      font-size: 70px;
     }
 
     .headline h2 {
-        font-size: 32px;
+      font-size: 32px;
     }
 
     .featurette-divider {
-        margin: 30px 0;
+      margin: 30px 0;
     }
 }
 
 @media(max-width:640px) {
     header {
-        height: 400px;
+      height: 400px;
     }
 
     .headline {
-        padding: 75px 0 25px 0;
+      padding: 75px 0 25px 0;
     }
 
     .headline h1 {
-        font-size: 60px;
+      font-size: 60px;
     }
 
     .headline h2 {
-        font-size: 30px;
+      font-size: 30px;
     }
 }
 
@@ -229,28 +228,28 @@ footer {
     //}
 
     .headline h1 {
-        font-size: 40px;
+      font-size: 40px;
     }
 
     .header-image {
-        background-color: #9d9d9d;
+      background-color: #9d9d9d;
     }
 
     .featurette-divider {
-        margin: 10px 0;
+      margin: 10px 0;
     }
 
     .featurette-image {
-        max-width: 100%;
+      max-width: 100%;
     }
 
     .featurette-image.pull-left {
-        margin-right: 0;
-        margin-bottom: 10px;
+      margin-right: 0;
+      margin-bottom: 10px;
     }
 
     .featurette-image.pull-right {
-        margin-bottom: 10px;
-        margin-left: 0;
+      margin-bottom: 10px;
+      margin-left: 0;
     }
 }
